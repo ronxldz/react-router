@@ -46,5 +46,47 @@ body > div {
 }
 
 .Home {
+  background-color: whitesmoke;
+}
+
+#navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+#navbar a {
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  text-decoration: underline;
+}
+
+#footer {
+  background-color: #333;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#footer a {
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+.yellow {
   background-color: yellow;
+}
+
+.green {
+  background-color: green;
 }
